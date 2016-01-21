@@ -1,0 +1,13 @@
+{
+  "hipchat": {
+    "apiKey": 'xxx', //Your hipchat apikey
+    "roomID": '0000', //the roomID you want to send the information too
+    "name": 'GO' //the name of your hipchat "Bot"
+  },
+  "go": {
+    "username": 'user', //your go username
+    "password": 'pass', //your go password
+    "url": 'http://go.example.com', //where is your go instance hosted
+    "pipelines": ['myPipeLine'] //array of pipelines you want to monitor
+  }
+}
